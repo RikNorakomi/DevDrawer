@@ -22,9 +22,9 @@ DevDrawer.attachTo(this /*activity*/, gravity = Gravity.END, enableInRelease = f
  - gravity - drawer's gravity. Must be one of `Gravity.END`, `Gravity.START`, `Gravity.LEFT`, `Gravity.RIGHT`.
  Default is `Gravity.END`
  - enableInRelease - if `true` drawer will be added even in non-debug builds (`BuildConfig.DEBUG != true`).
- Default is `false.
+ Default is `false`.
  - contentView - view, that will be put in drawer
- - optionsBody - function, that will be called on 
+ - optionsBody - DSL builder for views
 
 ## Kotlin DSL builder
 
